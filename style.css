@@ -1,0 +1,25 @@
+
+.heading{
+font-size: 23px;
+width: 100%;
+margin: 0px;
+}
+#status{
+font-size: 18px;
+}
+body{
+    background-size: cover;
+    background-position: center;
+}
+@keyframes shadow{
+    from{box-shadow:10px 10px 30px 10px rgb(12, 0, 123);}
+    to{box-shadow:10px 10px 30px 10px rgb(56, 0, 153);}
+}
+canvas{
+    animation-name: shadow;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    border-radius: 30px;
+    border-color: red;
+    border-width: 10px;
+}
